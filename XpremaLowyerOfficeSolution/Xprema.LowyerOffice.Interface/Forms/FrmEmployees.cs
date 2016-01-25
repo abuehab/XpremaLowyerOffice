@@ -60,7 +60,7 @@ namespace Xprema.LowyerOffice.Interface.Forms
 
                 var rw = cmd.GetEmployeeById(int.Parse(Dgv.CurrentRow.Cells[0].Value.ToString()));
 
-                if (col.ToString() == "6")
+                if (col.ToString() == "7")
                 {
 
                     FrmEditEmployee frm = new FrmEditEmployee();

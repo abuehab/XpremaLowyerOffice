@@ -77,6 +77,9 @@
       <DependentUpon>FrmViewer.cs</DependentUpon>
     </Compile>
     <Compile Include="Reports\ReportsDisplayer.cs" />
+    <EmbeddedResource Include="Forms\FrmAddEmployee.resx">
+      <DependentUpon>FrmAddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmEditEmployee.resx">
       <DependentUpon>FrmEditEmployee.cs</DependentUpon>
     </EmbeddedResource>

@@ -18,10 +18,22 @@ namespace Xprema.LowyerOffice.Interface.Forms
         {
             InitializeComponent();
         }
+
+
+        EmployeeCmd empcmd = new EmployeeCmd();
         public Employee TargetEmployee{ get; set; }
+
+        void LoadingData()
+        {
+            txtEmployeeName.Text = TargetEmployee.EmployeeName;
+            txtAddress.Text = TargetEmployee.Address;
+            txtEmail.Text = TargetEmployee.Email;
+            txtIDCard.Text = TargetEmployee.IdNumber;
+            txtPhone.Text = TargetEmployee.Phone;
+        }
         private void FrmEditEmployee_Load(object sender, EventArgs e)
         {
-
+            LoadingData();
         }
     }
 }
