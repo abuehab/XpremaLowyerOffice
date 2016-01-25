@@ -91,5 +91,11 @@ namespace Xprema.LowyerOffice.Interface.Forms
 
 
         }
+
+        private void BtnAddEmployee_Click(object sender, EventArgs e)
+        {
+            FrmAddEmployee frm = new FrmAddEmployee();
+            frm.ShowDialog();
+        }
     }
 }

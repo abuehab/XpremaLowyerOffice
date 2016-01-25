@@ -67,6 +67,7 @@
             this.BtnAddEmployee.Name = "BtnAddEmployee";
             this.BtnAddEmployee.Size = new System.Drawing.Size(91, 35);
             this.BtnAddEmployee.Text = "أضافة موظف";
+            this.BtnAddEmployee.Click += new System.EventHandler(this.BtnAddEmployee_Click);
             // 
             // btnPrint
             // 
