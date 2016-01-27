@@ -44,23 +44,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\FrmAddEmployee.cs">
+    <Compile Include="Forms\Employees Forms\FrmAddEmployee.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmAddEmployee.Designer.cs">
+    <Compile Include="Forms\Employees Forms\FrmAddEmployee.Designer.cs">
       <DependentUpon>FrmAddEmployee.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FrmEditEmployee.cs">
+    <Compile Include="Forms\Employees Forms\FrmEditEmployee.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmEditEmployee.Designer.cs">
+    <Compile Include="Forms\Employees Forms\FrmEditEmployee.Designer.cs">
       <DependentUpon>FrmEditEmployee.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FrmEmployees.cs">
+    <Compile Include="Forms\Employees Forms\FrmEmployees.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmEmployees.Designer.cs">
+    <Compile Include="Forms\Employees Forms\FrmEmployees.Designer.cs">
       <DependentUpon>FrmEmployees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Lowyers Forms\FrmAddLowyer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Lowyers Forms\FrmAddLowyer.Designer.cs">
+      <DependentUpon>FrmAddLowyer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Lowyers Forms\FrmEditLowyer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Lowyers Forms\FrmEditLowyer.Designer.cs">
+      <DependentUpon>FrmEditLowyer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Lowyers Forms\FrmLowyers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Lowyers Forms\FrmLowyers.Designer.cs">
+      <DependentUpon>FrmLowyers.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmMain.cs">
       <SubType>Form</SubType>
@@ -77,14 +95,20 @@
       <DependentUpon>FrmViewer.cs</DependentUpon>
     </Compile>
     <Compile Include="Reports\ReportsDisplayer.cs" />
-    <EmbeddedResource Include="Forms\FrmAddEmployee.resx">
+    <EmbeddedResource Include="Forms\Employees Forms\FrmAddEmployee.resx">
       <DependentUpon>FrmAddEmployee.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FrmEditEmployee.resx">
+    <EmbeddedResource Include="Forms\Employees Forms\FrmEditEmployee.resx">
       <DependentUpon>FrmEditEmployee.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FrmEmployees.resx">
+    <EmbeddedResource Include="Forms\Employees Forms\FrmEmployees.resx">
       <DependentUpon>FrmEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Lowyers Forms\FrmEditLowyer.resx">
+      <DependentUpon>FrmEditLowyer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Lowyers Forms\FrmLowyers.resx">
+      <DependentUpon>FrmLowyers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
