@@ -62,6 +62,24 @@
     <Compile Include="Forms\FrmEmployees.Designer.cs">
       <DependentUpon>FrmEmployees.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Lowyers Forms\FrmAddLowyer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Lowyers Forms\FrmAddLowyer.Designer.cs">
+      <DependentUpon>FrmAddLowyer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Lowyers Forms\FrmEditLowyer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Lowyers Forms\FrmEditLowyer.Designer.cs">
+      <DependentUpon>FrmEditLowyer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Lowyers Forms\FrmLowyers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Lowyers Forms\FrmLowyers.Designer.cs">
+      <DependentUpon>FrmLowyers.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +103,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmEmployees.resx">
       <DependentUpon>FrmEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Lowyers Forms\FrmEditLowyer.resx">
+      <DependentUpon>FrmEditLowyer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Lowyers Forms\FrmLowyers.resx">
+      <DependentUpon>FrmLowyers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
