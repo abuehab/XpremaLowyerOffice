@@ -106,6 +106,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Forms\Employees\" />
     <Folder Include="Helper Classes\" />
     <Folder Include="Reports\ReportsFunctions\" />
     <Folder Include="Reports\ReportsItems\" />

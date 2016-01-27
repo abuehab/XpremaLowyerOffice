@@ -1,0 +1,6 @@
+C:\Users\MARCELO\Documents\GitHub\XpremaLowyerOffice\XpremaLowyerOfficeSolution\Xprema.LowyerOffice.Interface\obj\Debug\Xprema.LowyerOffice.Interface.csprojResolveAssemblyReference.cache
+C:\Users\MARCELO\Documents\GitHub\XpremaLowyerOffice\XpremaLowyerOfficeSolution\Xprema.LowyerOffice.Interface\obj\Debug\Xprema.LowyerOffice.Interface.Forms.FrmAddEmployee.resources
+C:\Users\MARCELO\Documents\GitHub\XpremaLowyerOffice\XpremaLowyerOfficeSolution\Xprema.LowyerOffice.Interface\obj\Debug\Xprema.LowyerOffice.Interface.Forms.FrmEditEmployee.resources
+C:\Users\MARCELO\Documents\GitHub\XpremaLowyerOffice\XpremaLowyerOfficeSolution\Xprema.LowyerOffice.Interface\obj\Debug\Xprema.LowyerOffice.Interface.Forms.FrmEmployees.resources
+C:\Users\MARCELO\Documents\GitHub\XpremaLowyerOffice\XpremaLowyerOfficeSolution\Xprema.LowyerOffice.Interface\obj\Debug\Xprema.LowyerOffice.Interface.Properties.Resources.resources
+C:\Users\MARCELO\Documents\GitHub\XpremaLowyerOffice\XpremaLowyerOfficeSolution\Xprema.LowyerOffice.Interface\obj\Debug\Xprema.LowyerOffice.Interface.csproj.GenerateResource.Cache
